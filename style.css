@@ -1,0 +1,85 @@
+*{
+    margin: 0%;
+    padding: 0%;
+}
+h1{
+  color: rgb(62, 62, 62);
+  font-weight: 900;
+  box-shadow: inset 2px 2px 5px rgb(178, 178, 178);
+  padding: 5px 1rem 5px 1rem;
+}
+.dis{
+  display: none;
+  flex-direction: column;
+}
+#mainDiv{
+    height: 100vh;
+    width: 100vw;
+    display: none;
+    flex-direction: column;
+    gap: 2rem;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(240, 250, 253);
+}
+input{
+  width: 20rem;
+  border: none;
+  height: 2.5rem;
+  padding-left: 1rem;
+  border-radius: 5px;
+  box-shadow: inset 2px 2px 5px rgb(178, 178, 178);
+}
+
+.logindiv{
+  padding: 5px;
+  box-shadow: 2px 2px 5px rgb(180, 179, 179),-3px -3px 7px white;
+}
+.spydiv{
+  height: 100vh;
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    justify-content: center;
+    align-items: center;
+}
+#output{
+  color: green;
+  font-size: 2rem;
+}
+button{
+  /* width: 50%; */
+  padding: 10px 40px 10px 40px;
+  border-radius: 2rem;
+  border: none;
+  font-weight: 700;
+  cursor: pointer;
+  transition-duration: 300ms;
+  background-color: transparent;
+  box-shadow: 2px 2px 5px rgb(180, 179, 179),-3px -3px 7px white;
+}
+button:active{
+  box-shadow: none;
+  transform: scale(0.9);
+}
+img{
+  height: 2rem;
+  box-shadow: 2px 2px 5px rgb(180, 179, 179),-3px -3px 7px white;
+  /* width: 50%; */
+  padding: 8px;
+  transition-duration: 500ms;
+  border-radius: 100%;
+  cursor: pointer;
+  /* transform: translateX(50rem); */
+}
+img:active{
+  box-shadow: none;
+  transform: scale(0.9);
+}
+.enimy{
+  height: 5rem;
+}
+.imgdiv{
+  display: flex;
+  gap: 1rem;
+}
