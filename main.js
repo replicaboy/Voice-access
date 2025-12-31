@@ -27,7 +27,7 @@ recognition.onresult = (event) => {
 
     // सही कोड होने पर 2 सेकंड बाद गूगल खुलेगा
     setTimeout(() => {
-      window.location.href = "https://www.google.com";
+      window.location.href = "https://account.mongodb.com/account/login";
     }, 2000);
     
   } else {
