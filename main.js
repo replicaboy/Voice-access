@@ -27,7 +27,7 @@ recognition.onresult = (event) => {
 
     // सही कोड होने पर 2 सेकंड बाद गूगल खुलेगा
     setTimeout(() => {
-      window.location.href = "https://account.mongodb.com/account/login";
+      window.location.href = "https://www.instagram.com/sinu_rajput_926?igsh=cXc4a2piYXM5NnY1";
     }, 2000);
     
   } else {
